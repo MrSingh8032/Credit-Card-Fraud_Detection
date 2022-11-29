@@ -21,7 +21,6 @@ clusteringType = clusteringMethod[0]
 data = pd.read_csv('data_p1.txt', header = None)
 new_data = data.copy()
 new_data = data[50:]
-new_data = new_data.append([11])
 
 
 #### Main ####
